@@ -1,0 +1,3 @@
+﻿main.obj : error LNK2019: nierozpoznany zewnętrzny symbol _glfwInit przywołany w funkcji _main
+C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glfw\lib-vc2017\glfw3.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+C:\Users\Wookie\source\repos\VulkanTest\Debug\VulkanTest.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
