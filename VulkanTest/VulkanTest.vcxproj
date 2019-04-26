@@ -106,13 +106,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\VulkanSDK\Include;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glfw\include;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\VulkanSDK\Include;C:\Users\Luk\Documents\Visual Studio 2017\Libraries\glm;C:\Users\Luk\Documents\Visual Studio 2017\Libraries\glfw-3.3.bin.WIN64\include;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glfw\include;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glm;C:\VulkanSDK\1.1.106.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\VulkanSDK\Lib;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glfw\lib-vc2017</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VulkanSDK\Lib;C:\Users\Wookie\Documents\Visual Studio 2017\Libraries\glfw\lib-vc2017;C:\Users\Luk\Documents\Visual Studio 2017\Libraries\glfw-3.3.bin.WIN64\lib-vc2017;C:\VulkanSDK\1.1.106.0\Lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
